@@ -1,0 +1,459 @@
+<html lang="en">
+<head>
+    <title>Shutter-Story</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Shutter-<span class="text-primary">Story</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#Services">Birthday Party</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#Services">Couple Portraits</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#Services">Family Portraits</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#Services">Outdoors Portraits</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#Services">Portfolio</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#Services">Wedding Photoshoot</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sign Up
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="login.html">LogIn</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="login.html">LogOut</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h4>Professional photo shoot</h4>
+              <p>Expertly crafted session capturing high-quality images.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/birthday1 copy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h4>Birthday Party Photoshoot</h4>
+              <p>Capturing memories with joy and vibrant energy.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/wedding1 copy.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h4>Wedding Photoshoot</h4>
+              <p>Documenting timeless moments of a couple's union.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+<!--  -->
+    <section class="about my-5 py-5 bg-light" id="about">
+        <div class="container">
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">us</span></h1>
+                    <hr class="w-25 m-auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                    <h1>What do you <span class="text-primary">want to know?</span>
+                    </h1>
+                    <p class="p-2">
+                        We capture lifes precious moments, turning them into timeless memories. With creativity and experties our photography transforms ordinary scences into extraordinary art, preserving emotions that last a lifetime.
+                    </p>
+                    <button type="button" class="btn btn-light mb-5">More about us</button>
+                    <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Our work
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><b>We create evocative images, blending artistry and precision to capture your story in every moment.</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Our studio
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><b>Our studio is acreative space where your moments are transformed into timeless visual stories.</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Our equipments
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p><b>We use state of the art equipments to ensure the highest quality and precision in every shot.</b></p>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
+                    <img src="img/s4.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+
+        
+
+        </div>
+        
+
+    </section>
+    <!--  -->
+    <section class="Services py-5 bg-light" id="Services">
+        <div class="container">
+            <div class="text-center my-5 ">
+                <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-primary">Services</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa fa-camera bg-primary p-2 text-white rounded, mb-2"></i>
+                          <h5 class="card-title">Couple Potraits</h5>
+                          <p class="card-text">Intimate couple portraits capturing your unique love story.</p>
+                          <a href="Booking.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body bg-primary text-white">
+                            <i class="fa fa-camera bg-white p-2 text-dark rounded, mb-2"></i>
+                          <h5 class="card-title">Family Potraits</h5>
+                          <p class="card-text">Beautiful family Potraitthat capture cherished moments and lasting connections.</p>
+                          <a href="Booking.html" class="btn btn-light">Book Now</a>
+                          <style>
+                            .btn-light:hover {
+                              color: #fff;
+                              background-color: #0b5ed7;
+                              border-color: #0a58ca;
+                            }
+                          </style>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa fa-camera bg-primary p-2 text-white rounded, mb-2"></i>
+                          <h5 class="card-title">Outdoors Potraits</h5>
+                          <p class="card-text">Vibrants outdoor portraits showcasing natural beauty and spontanetity.</p>
+                          <a href="Booking.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body bg-primary text-white">
+                            <i class="fa fa-camera bg-white p-2 text-dark rounded, mb-2"></i>
+                          <h5 class="card-title">Birthday Party</h5>
+                          <p class="card-text">Capturing joyful birthday moments with vibrants, memorable portraits.</p>
+                          <a href="Booking.html" class="btn btn-light">Book Now</a>
+                          <style>
+                            .btn-light:hover {
+                              color: #fff;
+                              background-color: #0b5ed7;
+                              border-color: #0a58ca;
+                            }
+                          </style>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fa fa-camera bg-primary p-2 text-white rounded, mb-2"></i>
+                          <h5 class="card-title">Wedding</h5>
+                          <p class="card-text">Elegant wedding portraits capturing your special days romance and joy.</p>
+                          <a href="Booking.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body bg-primary text-white">
+                            <i class="fa fa-camera bg-white p-2 text-dark rounded, mb-2"></i>
+                          <h5 class="card-title">Portfolio</h5>
+                          <p class="card-text">Diverse portfolio portraits showcasing varied styles and unique personalities.</p>
+                          <a href="Booking.html" class="btn btn-light">Book Now</a>
+                          <style>
+                            .btn-light:hover {
+                              color: #fff;
+                              background-color: #0b5ed7;
+                              border-color: #0a58ca;
+                            }
+                          </style>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <section class="team my-5 text-center py-5 bg-light" id="team">
+        <div class="container">
+            <div class="text-center my-5 ">
+                <h1 data-aos="fade-up" data-aos-offset="200">Our <span class="text-primary">Team</span></h1>
+                <hr class="w-25 m-auto">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/s4.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                          <h5 class="card-title mt-4">Andrew</h5>
+                          <p class="card-text">Potrait Photographer</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/s3.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                          <h5 class="card-title mt-4">Sam</h5>
+                          <p class="card-text">Event Photographer</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/s2.jpg" class="img-fluid rounded-circle border border-primary p-2">
+                          <h5 class="card-title mt-4">Harry</h5>
+                          <p class="card-text">Editor</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+    <!--  -->
+
+    <section class="Contact py-5 bg-light" id="contact">
+      <div class="container">
+          <div class="text-center my-5 ">
+              <h1 data-aos="fade-up" data-aos-offset="200">Feel free <span class="text-primary">to Contact</span></h1>
+              <hr class="w-25 m-auto">
+          </div>
+          <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                  <form class="row g-3">
+                      <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="username@gmail.com">
+                      </div>
+                      <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Mobile No</label>
+                          <input type="text" class="form-control" id="inputmobile4" placeholder="+91 XXXXXXXXXX">
+                      </div>
+                      <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input type="text" class="form-control" id="inputCity" placeholder="City name">
+                      </div>
+                      <div class="col-md-4">
+                          <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                              <option selected>Choose...</option>
+                                <option>Delhi</option>
+                                <option>Goa</option>
+                                <option>Gujrat</option>
+                                <option>karnataka</option>
+                                <option>Maharashtra</option>
+                          </select>
+                      </div>
+                      <div class="col-md-2">
+                          <label for="inputPin" class="form-label">Pin</label>
+                          <input type="text" class="form-control" id="inputZip" placeholder="Pin code">
+                      </div>
+                      <div class="col-12">
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">Check me out</label>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <!-- Trigger the modal with this button -->
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#submitModal">Submit</button>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4">
+                  <img src="img/s6.jpg" class="img-fluid img-thumbnail p-2">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Modal  -->
+  <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="submitModalLabel">Contact Request Received</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p>Thank you for reaching out! We have received your contact information and we will get back to you as soon as possible.</p>
+              </div>
+              <div class="modal-footer">
+                  <a href="index.html">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!--  -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#Services">Our Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Booking</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online Booking</h4>
+                    <ul>
+                      <li><a href="Booking.html">Birthday Party</a></li>
+                      <li><a href="Booking.html">Couple Portraits</a></li>
+                      <li><a href="Booking.html">Family Portraits</a></li>
+                      <li><a href="Booking.html">Outdoors Portraits</a></li>
+                      <li><a href="Booking.html">Portfolio</a></li>
+                      <li><a href="Booking.html">Wedding Photoshoot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedIn"></i></a>
+                        <a href="#"><i class="fab fa-reddit"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>

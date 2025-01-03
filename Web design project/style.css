@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+}
+#about{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-image: url(img/bki0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#services{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-image: url(img/service2copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#team{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-image: url(img/bki3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#contact{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-image: url(img/contact1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#booking{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-image: url(img/bki1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.modal-footer .btn-secondary{
+   background-color: blue;
+   border-color: blue;
+}
+.modal-footer .btn-secondary:hover{
+    background-color: darkblue;
+    border-color: blue;
+}
+.modal-footer .btn-secondaryy{
+    background-color: blue;
+    border-color: blue;
+ }
+ .modal-footer .btn-secondaryy:hover{
+     background-color: darkblue;
+     border-color: blue;
+ }
+.card-body img{
+    min-width: 50%;
+    max-height: 200px;
+}
+
+.btn-light:hover {
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ddd;
+}
